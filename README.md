@@ -18,25 +18,7 @@ L’obiettivo del progetto è dimostrare:
 
 # Architettura
 
-```text
-                    ┌─────────────────┐
-                    │ Client / API    │
-                    │ Consumer        │
-                    └────────┬────────┘
-                             │
-                             ▼
-                  ┌────────────────────┐
-                  │ Node.js Middleware │
-                  │ Express API        │
-                  └────────┬───────────┘
-                           │
-          ┌────────────────┴────────────────┐
-          ▼                                 ▼
-┌────────────────────┐          ┌────────────────────┐
-│ Redis / Upstash    │          │ Salesforce         │
-│ Atomic Code Queue  │          │ Assignment Storage │
-└────────────────────┘          └────────────────────┘
-```
+![Architecture](./images/PoC Architecture v1.png)
 
 ---
 
