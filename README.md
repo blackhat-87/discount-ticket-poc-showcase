@@ -18,7 +18,7 @@ L’obiettivo del progetto è dimostrare:
 
 # Architettura
 
-![Architecture](./images/PoC Architecture v1.png)
+![Architecture](./images/PoC_Architecture_v1.png)
 
 ---
 
